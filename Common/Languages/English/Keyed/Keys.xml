@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_FILE_PATH">
+
+	<!-- Settings -->
+	<Dunmer_SettingBurialPitSound>Enable filled burial pits 'whispering'</Dunmer_SettingBurialPitSound>
+	
+	<Dunmer_SettingGhostfenceReduceFuelWhenUsed>Reduce Ghostfence pylon fuel when generating walls and self repairing</Dunmer_SettingGhostfenceReduceFuelWhenUsed>
+	<Dunmer_SettingGhostfenceReduceFuelAmount>Amount Ghostfence pylon fuel is decreased by when generating walls</Dunmer_SettingGhostfenceReduceFuelAmount>
+	<Dunmer_SettingGhostfenceMaxDistance>The maximum distance between Ghostfence pylons, not including the pylons</Dunmer_SettingGhostfenceMaxDistance>
+	<Dunmer_SettingGhostfenceTicksPerCheck>The number of ticks between checks for Ghostfence pylons</Dunmer_SettingGhostfenceTicksPerCheck>
+	<Dunmer_SettingGhostfenceRepairMod>Modifier for the fuel consumed when self repairing walls and pylons</Dunmer_SettingGhostfenceRepairMod>
+	<Dunmer_SettingGhostfenceWallLifespan>The lifespan of a wall segment once the Ghostfence is no longer considered valid</Dunmer_SettingGhostfenceWallLifespan>
+	
+	<Dunmer_SettingMoragTongRaid>Enable Morag Tong Raids</Dunmer_SettingMoragTongRaid>
+	<Dunmer_SettingMoragTongRaidForAll>Allow any humanlike faction to call upon the Morag Tong</Dunmer_SettingMoragTongRaidForAll>
+	<Dunmer_SettingMoragTongRaidType>Enable the custom Morag Tong Raid arrival method, causing the Morag Tong to appear around your colony.</Dunmer_SettingMoragTongRaidType>
+	
+	<!-- Pages -->
+	
+	<Dunmer_PageDefault>Main settings page</Dunmer_PageDefault>
+	<Dunmer_PageGhostfence>Ghostfence settings</Dunmer_PageGhostfence>
+	<Dunmer_PageMoragTong>Morag Tong settings</Dunmer_PageMoragTong>
+	<Dunmer_PageBonewalker>Bonewalker settings</Dunmer_PageBonewalker>
+	
+	<Dunmer_Reset>Reset all settings to default</Dunmer_Reset>
+	<Dunmer_ResetGhostFence>Reset Ghostfence settings to default</Dunmer_ResetGhostFence>
+	<Dunmer_ResetMoragTong>Reset Morag Tong settings to default</Dunmer_ResetMoragTong>
+	<Dunmer_ResetBonewalker>Reset Bonewalker settings to default</Dunmer_ResetBonewalker>
+
+</LanguageData>

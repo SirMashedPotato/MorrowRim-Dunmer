@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>MorrowRim - Dunmer</name>
+	<packageId>SirMashedPotato.MorrowRim.Dunmer</packageId>
+	<author>SirMashedPotato</author>
+	<supportedVersions>
+    	<li>1.3</li>
+	</supportedVersions>
+	<description>Dunmer race and factions, rebuilt for 1.3.\n\nAdds in the Dunmer race, hailing from Morrowind. The Dunmer are more resistant to heat and fire than humans, as well as resistant to ash buildup from ash storms. They are also slightly more sensitive to psychic effects. Dunmer consider the dead to be sacred, and therefore gain greater mood penalties revolving around the usage of dead colonists. They don't gain a mood penalty for eating insect meat, though they still gain the raw food penalty if eaten raw.\n\nAdditionaly, this mod includes several pieces of armour, several weapons, Dunmer themed buildings, buildable ghostfence, and bonemold.\n\n-Supports Vanilla Achievements Expanded\n-Humanoid Alien Races 2.0\n-Includes several patches to allow integration with other MorrowRim mods.\n-Includes a patch for Vanilla Armour Expanded, adding in bonemold gauntlets and boots.\n-Includes a patch for Vanilla Framework Expanded, adding support for shields to several weapons.\n-Includes a patch for Rim of Madness - Bone, adding a recipe to craft bonemold from bone.\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios.
+	</description>
+	<modDependencies>
+	  <li>
+        <packageId>brrainz.harmony</packageId>
+		<displayName>Harmony</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      </li>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0 </displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      </li>
+	  <li>
+        <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		<displayName>Vanilla Expanded Framework</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+		<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+      </li>
+    </modDependencies>
+	<loadAfter>
+      <li>brrainz.harmony</li>
+      <li>erdelf.HumanoidAlienRaces</li>
+	  <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	  <li>vanillaexpanded.achievements</li>
+	  <!-- Loadfolders -->
+	  <li>SirMashedPotato.MorrowRim.GlassAndEbony</li>
+    </loadAfter>
+	<loadBefore>
+		<li>Articanical.ExtraWallsAndFloors</li>
+	</loadBefore>
+	<incompatibleWith>
+      <li>SirMashedPotato.MorrowRim.DunmerRace</li>
+      <li>SirMashedPotato.MorrowRim.DunmerFactions</li>
+    </incompatibleWith>
+
+</ModMetaData>
