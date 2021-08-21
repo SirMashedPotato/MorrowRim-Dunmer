@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Hlaalu -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_HlaaluBackstory</defName>
+		<title>house Hlaalu member</title>
+		<titleShort>Hlaalu member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Hlaalu. Members of the Great House Hlaalu are notorious for valuing wealth above all else, even morals. [PAWN_nameDef] once thought [PAWN_pronoun] was different, now [PAWN_pronoun] is not so sure.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Ascetic</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>0~50</Silver>	
+		</forcedItems>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Telvanni -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_TelvanniBackstory</defName>
+		<title>house Telvanni member</title>
+		<titleShort>Telvanni member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Telvanni. Great House Telvanni is known for its wonderful and magical craftsmanship, creating houses out of the strangest materials. [PAWN_nameDef] learnt many wonderous things during [PAWN_possessive] time with House Telvanni, such as socialising is a waste of precious time and that caring about people is pointless.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Redoran -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_RedoranBackstory</defName>
+		<title>house Redoran member</title>
+		<titleShort>Redoran member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Redoran. Members of The Great House Redoran were always considered to be more compassionate than those of other Great Houses, likely due to House Redoran valuing honour rather highly. [PAWN_nameDef] likes to believe this is true of [PAWN_possessive]self.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Kind</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Dagoth -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_DagothBackstory</defName>
+		<title>house Dagoth member</title>
+		<titleShort>Dagoth member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Dagoth. [PAWN_pronoun] doesn't know whether it was by choice or not. What [PAWN_pronoun] does know, is that [PAWN_pronoun] has been irrevocably changed by it.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>MorrowRim_TouchedByDagothUr</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Dres -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_DresBackstory</defName>
+		<title>house Dres member</title>
+		<titleShort>Dres member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Dres. An often forgotten Great House, but a highly important one. House Dres was known for slavery, and nothing else. Any Argonian in House Dres territory was a slave, and [PAWN_nameDef] liked it that way.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>MorrowRim_Slaver</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Indoril -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_IndorilBackstory</defName>
+		<title>house Indoril member</title>
+		<titleShort>Indoril member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Great House Indoril, the great house of Indoril Nerevar himself. Like most members of House Indoril, [PAWN_nameDef] firmly believes that Dunmer culture must be respected and preserved, even the less desirable parts of it.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Cannibal</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Ashlander Tribe -->
+
+  <RulePackDef>
+    <defName>MorrowRim_NamerSettlementAshlanderTribe</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[FamilyList] Camp</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>FamilyList->AshlanderNames/AshlanderFamily</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- Great House -->
+  
+  <RulePackDef>
+    <defName>MorrowRim_NamerFactionGreatHouse</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Great House [FamilyList]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>FamilyList->DunmerNames/DunmerFamily</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MorrowRim_NamerSettlementGreatHouse</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[DunmerCities]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>DunmerCities->DunmerNames/DunmerCities</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- Reavers -->
+  
+  <RulePackDef>
+    <defName>MorrowRim_NamerFactionReaver</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->The [DunmerCities]  Reavers</li>
+        <li>r_name->The [FamilyList]  Reavers</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>FamilyList->DunmerNames/DunmerFamily</li>
+		<li>DunmerCities->DunmerNames/DunmerCities</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

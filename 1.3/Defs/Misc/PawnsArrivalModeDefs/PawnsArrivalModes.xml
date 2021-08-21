@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnsArrivalModeDef>
+    <defName>MorrowRim_MoragTong</defName>
+    <workerClass>MorrowRim_DunmerFaction.PawnsArrivalModeWorker_MoragTong</workerClass>
+    <textEnemy>A group of {0} from {1} have appeared from the shadows.</textEnemy>
+    <textFriendly>A friendly group of {0} from {1} have appeared from the shadows.</textFriendly>
+    <selectionWeightCurve>
+      <points>
+        <li>(0, 0)</li> <!--Constant 0 -->
+      </points>
+    </selectionWeightCurve>
+  </PawnsArrivalModeDef>
+
+</Defs>

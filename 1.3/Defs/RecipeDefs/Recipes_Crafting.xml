@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- plant matter to resin -->
+	
+	<RecipeDef>
+		<defName>MorrowRim_ResinFromPlantMatter</defName>
+		<label>process plant matter into resin</label>
+		<description>Process 10 plant matter into 5 plant resin.</description>
+		<jobString>Processing plant matter into resin.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>ButcherSpot</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <categories>
+				<li>PlantFoodRaw</li>
+			  </categories>
+			</filter>
+			<count>10</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <categories>
+			<li>PlantFoodRaw</li>
+		  </categories>
+		</fixedIngredientFilter>
+		<products>
+		  <MorrowRim_PlantResin>5</MorrowRim_PlantResin>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MorrowRim_ResinFromPlantMatter_Bulk</defName>
+		<label>process plant matter into resin x4</label>
+		<description>Process 40 plant matter into 20 plant resin.</description>
+		<jobString>Processing plant matter into resin.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>ButcherSpot</li>
+		</recipeUsers>
+		<ingredients>
+		  <li>
+			<filter>
+			  <categories>
+				<li>PlantFoodRaw</li>
+			  </categories>
+			</filter>
+			<count>40</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <categories>
+			<li>PlantFoodRaw</li>
+		  </categories>
+		</fixedIngredientFilter>
+		<products>
+		  <MorrowRim_PlantResin>20</MorrowRim_PlantResin>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+  
+</Defs>

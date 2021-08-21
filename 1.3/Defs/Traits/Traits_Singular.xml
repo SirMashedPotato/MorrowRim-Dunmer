@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>MorrowRim_Slaver</defName>
+    <commonality>0.7</commonality>
+    <degreeDatas>
+      <li>
+        <label>slaver</label>
+        <description>[PAWN_nameDef] sees nothing wrong with owning a slave or two, and won't mind if something unfortunate happens to one.</description>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+      <li>Kind</li>
+      <li>Psychopath</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MorrowRim_NetchRancher</defName>
+    <commonality>0.7</commonality>
+    <degreeDatas>
+      <li>
+        <label>increased toxic resistance</label>
+        <description>For some reason [PAWN_nameDef] has developed an increased resistance to toxic buildup. This could be due to working with toxic animals, or in a toxic environment.</description>
+		<statOffsets>
+			<ToxicSensitivity>-0.20</ToxicSensitivity>
+        </statOffsets>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>MorrowRim_TouchedByDagothUr</defName>
+    <commonality>0.4</commonality>
+    <degreeDatas>
+      <li>
+        <label>touched by Dagoth Ur</label>
+        <description>In a dream [PAWN_nameDef] was greeted by the god of the Sixth House. Ever since then the bells of the Sixth House quitely ring in [PAWN_possessive] ears.</description>
+		<statOffsets>
+          <PsychicSensitivity>0.4</PsychicSensitivity>
+		</statOffsets>
+		<!--<allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>-->
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>MorrowRim_AlmalexiaBlessing</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>almalexias blessing</label>
+        <description>{PAWN_nameDef} has received Almalexias blessing. {PAWN_nameDef} knows that even in death, the divine lady is with them.</description>
+		<statOffsets>
+			<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+			<PainShockThreshold>+0.10</PainShockThreshold>
+        </statOffsets>
+		<marketValueFactorOffset>+0.15</marketValueFactorOffset>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MorrowRim_BipolarBlade</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>hit by bipolar blade</label>
+        <description>[PAWN_nameDef] suffered a wound by a mysterious blade many years ago. Ever since then something in [PAWN_possessive] head is just a little... off.</description>
+		<statOffsets>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        </statOffsets>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+ 
+</Defs>

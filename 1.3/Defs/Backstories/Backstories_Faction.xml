@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- other factions -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_ArmigerBackstory</defName>
+		<title>buoyant armiger member</title>
+		<titleShort>buoyant armiger member</titleShort>
+		<baseDescription>[PAWN_nameDef] was a member of the Buoyant Armigers, a mercenary faction of sorts working for the Tribunal Temple. After the fall of the Tribunal [PAWN_nameDef] decided that [PAWN_pronoun] wanted to explore foreign lands.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_OrdinatorBackstory</defName>
+		<title>ordinator</title>
+		<titleShort>ordinator</titleShort>
+		<baseDescription>[PAWN_nameDef] was an ordinator in service of the tribunal temple. [PAWN_pronoun] spent many a day watching scum, looking for any reason to lock them up.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Vvardenfell.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_HandOfTheQueenBackstory</defName>
+		<title>hand of Almalexia</title>
+		<titleShort>hand of Almalexia</titleShort>
+		<baseDescription>[PAWN_nameDef] wasn't just an ordinary ordinator, [PAWN_pronoun] was on the hands of Almalexia. [PAWN_pronoun] served Almalexia with unwavering loyalty, until the very end.\n\nAfter the fall of the tribunal [PAWN_nameDef] decided to start [PAWN_possessive] life anew, and fled Mournhold.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>MorrowRim_AlmalexiaBlessing</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Caring</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_TwinLampsBackstory</defName>
+		<title>Twin Lamps member</title>
+		<titleShort>Twin Lamps member</titleShort>
+		<baseDescription>[PAWN_nameDef] always thought slavery a necessary evil. [PAWN_pronoun] had a change of heart After watching an Argonian slave get beaten to near death. After that moment [PAWN_nameDef] decided to join the Twin Lamps, and vowed to do anything to protect slaves.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nimble</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>MorrowRim_Slaver</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_TempleBackstory</defName>
+		<title>Tribunal temple member</title>
+		<titleShort>Temple member</titleShort>
+		<baseDescription>[PAWN_nameDef] joined the Tribunal Temple at [PAWN_possessive] lowest point in life. Ever since then [PAWN_pronoun] has been a steadfast believer of the Tribunal, even after certain slanderous lies were spread about them.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Ascetic</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_MoragTongBackstory</defName>
+		<title>Morag Tong member</title>
+		<titleShort>Morag Tong member</titleShort>
+		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the faction. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of farming ash yams.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_MoragTongBackstory_Alt</defName>
+		<title>Morag Tong member</title>
+		<titleShort>Morag Tong member</titleShort>
+		<baseDescription>[PAWN_nameDef] was once a member of the Morag Tong, and may still have close contacts within the faction. [PAWN_pronoun] always abided by the code, never once straying from it. After many years of faithful servitude, [PAWN_nameDef] decided to move on, and pursue [PAWN_possessive] dreams of ranching netch.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>MorrowRim_CamonnaTongBackstory</defName>
+		<title>Camonna Tong member</title>
+		<titleShort>Camonna Tong member</titleShort>
+		<baseDescription>[PAWN_nameDef] spent many years in the Camonna Tong. [PAWN_pronoun] followed the strict code of 'what's yours is mine', and amassed quite the wealth because of it. Sadly, all good things must come to an end. [PAWN_nameDef] was caught, jailed, and stripped of all that hard earned wealth. After escaping [PAWN_nameDef] thought it best to find somewhere to lie low, and maybe start a new life.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+		  <li>DunmerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>70</chance>
+			</li>
+			<li>
+				<defName>NightOwl</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

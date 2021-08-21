@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>MorrowRim_NamerPersonDunmerMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>MaleList</keyword>
+					<path>DunmerNames/DunmerMale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>DunmerNames/DunmerFamily</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>MorrowRim_NamerPersonDunmerFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>FemaleList</keyword>
+					<path>DunmerNames/DunmerFemale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>DunmerNames/DunmerFamily</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>MorrowRim_NamerPersonAshlanderMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>MaleList</keyword>
+					<path>AshlanderNames/AshlanderMale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>AshlanderNames/AshlanderFamily</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>MorrowRim_NamerPersonAshlanderFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>FemaleList</keyword>
+					<path>AshlanderNames/AshlanderFemale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>AshlanderNames/AshlanderFamily</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

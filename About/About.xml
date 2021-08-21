@@ -31,8 +31,9 @@
       <li>brrainz.harmony</li>
       <li>erdelf.HumanoidAlienRaces</li>
 	  <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-	  <li>vanillaexpanded.achievements</li>
 	  <!-- Loadfolders -->
+	  <li>vanillaexpanded.achievements</li>
+	  <li>SirMashedPotato.MorrowRim</li>
 	  <li>SirMashedPotato.MorrowRim.GlassAndEbony</li>
     </loadAfter>
 	<loadBefore>

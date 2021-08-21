@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>MorrowRim_BonemoldPaved</defName>
+		<label>bonemold</label>
+		<description>Rough bonemold. It is cheap and quick to build, but is also quite ugly.</description>
+		<texturePath>Terrain/Surfaces/MorrowRim_BonemoldConcrete</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>70</renderPrecedence>
+		<statBases>
+		  <Beauty>-1</Beauty>
+		  <WorkToBuild>100</WorkToBuild>
+		</statBases>
+		<costList>
+		  <MorrowRim_Bonemold>3</MorrowRim_Bonemold>
+		</costList>
+		<researchPrerequisites>
+		  <li>Stonecutting</li>
+		</researchPrerequisites>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="FloorBase">
+		<defName>MorrowRim_BonemoldPavedTile</defName>
+		<label>bonemold paved tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>Bonemold tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+		<texturePath>Terrain/Surfaces/MorrowRim_BonemoldPavedTile</texturePath>
+		<statBases>
+		  <WorkToBuild>300</WorkToBuild>
+		</statBases>
+		<costList>
+		  <MorrowRim_Bonemold>6</MorrowRim_Bonemold>
+		</costList>
+		<researchPrerequisites>
+		  <li>Stonecutting</li>
+		</researchPrerequisites>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="FloorBase">
+		<defName>MorrowRim_BonemoldSmooth</defName>
+		<label>smooth bonemold</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>Bonemold flooring, carefuly smoothed to perfection. Very nice to look at, but extremely time consuming to build.</description>
+		<texturePath>Terrain/Surfaces/SmoothStone</texturePath>
+		<color>(137,116,75)</color>
+		<statBases>
+		  <Beauty>2</Beauty>
+		  <WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<costList>
+		  <MorrowRim_Bonemold>10</MorrowRim_Bonemold>
+		</costList>
+		<researchPrerequisites>
+		  <li>Stonecutting</li>
+		</researchPrerequisites>
+	</TerrainDef>
+	
+	<!-- Blocks -->
+
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>MorrowRim_TileBonemoldBlock</defName>
+		<label>bonemold block tile</label>
+		<color>(137,116,75)</color>
+		<costList>
+		  <MorrowRim_BlocksBonemold>4</MorrowRim_BlocksBonemold>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>MorrowRim_FlagstoneBonemoldBlock</defName>
+		<label>bonemold block flagstone</label>
+		<color>(137,116,75)</color>
+		<costList>
+		  <MorrowRim_BlocksBonemold>4</MorrowRim_BlocksBonemold>
+		</costList>
+	</TerrainDef>
+
+</Defs>

@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Dunmer special -->
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBonemoldCreation</defName>
+		<label>bonemold creation</label>
+		<description>Allows the creation of bonemold at a Dunmeri forge, or butchers table.\n\nBonemold armor provides reasonable protection, and is comparatively faster to make and lighter than steel plate, though is also less durable. Bonemold is also better at dispersing heat than steel.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<tags>
+		  <li>DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBurialPit</defName>
+		<label>ash burial pit</label>
+		<description>Allows the construction of traditional Dunmeri ash burial pit.\n\nA Dunmer with the _X_ ideoreligion role is capable of calling upon those buried within these pits.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<tags>
+		  <li>DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerGhostFence</defName>
+		<label>ghost fence</label>
+		<description>Allows the construction of ghost fence pylons, bonemold powered pylons that create walls of energy between them.\n\nDue to the complex nature of the construction process, only Dunmer can research ghost fence pylons.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerBurialPit</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerLesserBonewalker</defName>
+		<label>lesser bonewalker creation</label>
+		<description>Allows the creation of lesser bonewalkers at the _X_, re-animated corpses that make useful powerful servants.\n\nDue to the complex nature of the creation process, only Dunmer can research bonewalker creation.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBurialPit</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerGreaterBonewalker</defName>
+		<label>greater bonewalker creation</label>
+		<description>Allows the creation of greater bonewalkers at the _X_, re-animated corpses that make for powerful servants.\n\nDue to the complex nature of the creation process, only Dunmer can research bonewalker creation.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerLesserBonewalker</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBonewalkerUpgrading</defName>
+		<label>bonewalker upgrading</label>
+		<description>Allows the creation of bonewalkers upgrade gems at the _X_, allowing you to upgrade the quality level of your created bonewalkers.\n\nDue to the complex nature of the creation process, only Dunmer can research bonewalker creation.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>5.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerLesserBonewalker</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<!-- Dunmer armoury -->
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_AshlanderWeapons</defName>
+		<label>Ashlander weapons</label>
+		<description>Allows the creation of Ashlander style weapons.\n\nBonemold armor provides reasonable protection, and is comparatively faster to make and lighter than steel plate, though is also less durable. Bonemold is also better at dispersing heat than steel.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<tags>
+		  <li>DunmerStart</li>
+		  <li>AshlanderStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerForge</defName>
+		<label>dunmer forge</label>
+		<description>Allows the construction of the Dunmeri forge, and a small assortment of Dunmeri style weapons.\n\nAt a first glance Dunmer weapons are nothing particularly special, though they are slightly nicer to look at than their regular counterparts. Upon further inspection one will notice they are designed in a way that allows them to inflict additional wounds to targets.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+		  <li>DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<!-- Ranged weapons -->
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerThrowingWeapons</defName>
+		<label>throwing weapons</label>
+		<description>Allows the creation of Dunmeri style throwing knives and darts at the Dunmeri forge, as well as Dunmeri style throwing stars at both the Dunmeri forge and crafting spot.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerFireBombs</defName>
+		<label>fire bombs</label>
+		<description>Allows the creation of Dunmeri style fire bombs at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerThrowingWeapons</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerShrapnelBombs</defName>
+		<label>shrapnel bombs</label>
+		<description>Allows the creation of Dunmeri style shrapnel bombs at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerFireBombs</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerNetchBombs</defName>
+		<label>retching netch bombs</label>
+		<description>Allows the creation of Dunmeri style retching netch bombs at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerFireBombs</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBonemoldBow</defName>
+		<label>bonemold bow</label>
+		<description>Allows the creation of the bonemold bow, at the Dunmeri forge.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBonemoldWarBow</defName>
+		<label>bonemold war bow</label>
+		<description>Allows the creation of the bonemold war bow, at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>RecurveBow</li>
+			<li>MorrowRim_DunmerBonemoldBow</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<!-- Melee Weapons -->
+
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerBlades</defName>
+		<label>dunmer blades</label>
+		<description>Allows the creation of Dunmer style bladed weapons, at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerHeavyWeapons</defName>
+		<label>dunmer heavy weapons</label>
+		<description>Allows the creation of Dunmer style heavy weapons, at the Dunmeri forge.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerAkaviriBlades</defName>
+		<label>dunmer Akaviri blades</label>
+		<description>Allows the creation of Dunmer style Akaviri blades, at the Dunmeri forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBlades</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerOrdinatorWeapons</defName>
+		<label>ordinator weaponry</label>
+		<description>Allows the creation of the Dunmer styled weapons typically wielded by Ordinators.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBlades</li>
+			<li>MorrowRim_DunmerHeavyWeapons</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerPlasmaWeapons</defName>
+		<label>Dunmeri plasma weapons</label>
+		<description>Allows the creation of Dunmeri styled plasma weapons, at the _X_.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		  <li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<!-- Armour -->
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerArmunAn</defName>
+		<label>Armun An styled bonemold</label>
+		<description>Allows the creation of bonemold armour made in the Armun An style, at the Dunmeri forge.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerGahJulan</defName>
+		<label>Gah Julan styled bonemold</label>
+		<description>Allows the creation of bonemold armour made in the Gah Julan style, at the Dunmeri forge.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerDustAdept</defName>
+		<label>dust adept styled bonemold</label>
+		<description>Allows the creation of bonemold armour made in the Dust Adept style, at the Dunmeri forge.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerWatchman</defName>
+		<label>Watchman styled bonemold</label>
+		<description>Allows the creation of bonemold helmets made in the Watchman style, at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerChuzei</defName>
+		<label>Chuzei styled bonemold</label>
+		<description>Allows the creation of bonemold helmets made in the Chuzei style, at the Dunmeri forge.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerIndorilBonemold</defName>
+		<label>Indoril styled bonemold</label>
+		<description>Allows the creation of bonemold armour made in the Indoril style, at the Dunmeri forge.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerOrdinatorArmour</defName>
+		<label>Ordinator armour</label>
+		<description>Allows the creation of Ordinator armour, at the Dunmeri forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerIndorilBonemold</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerHighOrdinatorArmour</defName>
+		<label>high Ordinator armour</label>
+		<description>Allows the creation of high Ordinator armour, at the Dunmeri forge.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerOrdinatorArmour</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerAdvancedBonemold</defName>
+		<label>advanced bonemold</label>
+		<description>Allows the creation of advanced bonemold armour using resin, at the Dunmeri forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerBonemoldCreation</li>
+			<li>MorrowRim_DunmerForge</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerMoragTongSmokebelt</defName>
+		<label>Morag Tong smokebomb belt</label>
+		<description>Allows the creation of Morag Tong smokebomb belts, at the Dunmeri forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerAdvancedBonemold</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerPowerArmour</defName>
+		<label>Dunmeri power armour</label>
+		<description>Allows the creation of Dunmeri styled power armour, at the _X_.</description>
+		<baseCost>6000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		  <li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+
+	<!-- Original -->
+	<!--
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerArmory</defName>
+		<label>dunmer armory</label>
+		<description>Allows the construction of Dunmer weapons and armor at the Dunmer forge.\n\nDue to limited resources as the Dunmeri transitioned from tribal camps to cities, Dunmer equipment is often made of unusual, and slightly primitive, materials.\n\nBonemold armor provides reasonable protection, and is comparatively faster to make and lighter than steel plate, though is also less durable. Bonemold is also better at dispersing heat.\n\nAt a first glance Dunmer weapons are nothing particularly special, though they are slightly nicer to look at than their regular counterparts. Upon further inspection one will notice they are designed in a way that allows them to inflict additional wounds to targets.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+		</prerequisites>
+		<tags>
+		  <li>DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerArmoryAdvanced</defName>
+		<label>advanced dunmer armory</label>
+		<description>Allows the construction of advanced Dunmer weapons and armor at the Dunmer forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<tab>MorrowRim_Tab</tab>
+		<prerequisites>
+			<li>MorrowRim_DunmerArmory</li>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	-->
+</Defs>
