@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!--
+	Yurt mod goes here
+	<ResearchProjectDef>
+		<defName>YURTS</defName>
+		<label>ashlander yurt</label>
+		<description>Allows the construction of ashlander yurts, a tent that protects against ash storms.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<tags>
+		  <li>DunmerStart</li>
+		</tags>
+	</ResearchProjectDef>
+	-->
 
 	<!-- Dunmer special -->
 	
