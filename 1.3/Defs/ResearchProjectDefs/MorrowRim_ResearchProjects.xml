@@ -469,6 +469,22 @@
 		</tags>
 	</ResearchProjectDef>
 	
+	<!-- Possibly tie to royalty -->
+	<ResearchProjectDef>
+		<defName>MorrowRim_DunmerRoyalGuardArmour</defName>
+		<label>royal guard armour</label>
+		<description>Allows the creation of royal duard armour, at the Dunmeri forge.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<tab>MorrowRim_DunmerTab</tab>
+		<prerequisites>
+		</prerequisites>
+		<tags>
+		</tags>
+	</ResearchProjectDef>
+	
 	<ResearchProjectDef>
 		<defName>MorrowRim_DunmerAdvancedBonemold</defName>
 		<label>advanced bonemold</label>
